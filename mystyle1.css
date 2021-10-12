@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+	background-image: url(gradient.jpg);
+	background-repeat: repeat-x;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#wrapper {
+	padding: 0px;
+	width: 900px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	background-color: #000;
+	height: auto;
+}
+#banner {
+	height: 105px;
+	width: 900px;
+	background-color: #000;
+}
+#logo {
+	float: left;
+	height: 105px;
+	width: 400px;
+}
+#navmenu {
+	float: right;
+	height: 105px;
+	width: 500px;
+	color: #FFF;
+	background-color: #000;
+	text-align: center;
+}
+#content {
+	background-color: #FFF;
+	clear: both;
+	height: auto;
+	width: 900px;
+	min-height: 534px;
+	background-image: url(gradient.jpg);
+}
+.heading {
+	font-size: 24px;
+	font-style: oblique;
+	font-weight: bolder;
+	color: #FFF;
+	padding-left: 90px;
+}
+.text {
+	text-align: justify;
+	letter-spacing: normal;
+	word-spacing: normal;
+	color: #FFF;
+}
+.picture {
+	float: right;
+	padding-right: 5px;
+}
+
+
+
+#footer {
+	font-size: 12px;
+	text-align: center;
+	height: 40px;
+	width: 900px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #000;
+}
+#footer a {
+	color: #00F;
+	text-decoration: none;
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#navmenu a {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+}
+#navmenu a:hover {
+	color: #06F;
+}
+#navmenu ul {
+	margin-top: 30px;
+	padding-left: 15px;
+	list-style-type: none;
+}
+#navmenu li {
+	display: inline;
+	float: left;
+	width: 85px;
+	padding-right: 5px;
+}
+#content1 {
+	padding: 5px;
+	float: left;
+	height: auto;
+	width: 415px;
+	background-image: url(gradient.jpg);
+	background-repeat: repeat-x;
+	color: #FFF;
+}
+#content2 {
+	padding: 5px;
+	float: right;
+	width: 450px;
+}
